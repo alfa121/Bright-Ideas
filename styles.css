@@ -1,0 +1,197 @@
+/* general reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* remove default spacing */
+/* force styling of type through styling, rather than elements */
+
+* {
+  margin: 0;
+  padding: 0;
+  /* font: inherit; */
+}
+
+/* dark mode user-agent-styles */
+
+html {
+  /* color-scheme: dark light; */
+}
+
+/* min body height */
+
+body {
+  min-height: 100vh;
+  background-color: #FFFFFF;
+  background-image: linear-gradient(0deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+}
+
+/* responsive images/videos */
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+/* ============================================================ */
+
+/* header */
+
+.header-container {
+  margin-bottom: 2rem;
+  letter-spacing: 3px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: rgb(21, 44, 85);
+  font-weight: 800;
+  transition-duration: 0.4s;
+}
+
+nav li {
+  list-style: none;
+  margin-bottom: 1em;
+}
+
+.nav-employees {
+  margin-left: 5rem;
+}
+
+.nav-products {
+  margin-left: 1.2rem;
+}
+
+.logo {
+  max-width: 25rem;
+  margin: 1rem auto;
+  border-radius: 50%;
+  box-shadow: 0rem 0rem 1rem rgba(246, 235, 180, 0.5);
+}
+
+/*section Brighti Ideas*/
+
+.bright-ideas {
+  text-align: center;
+  margin-bottom: 4em;
+}
+
+.bright-ideas h1 {
+  margin-bottom: 1em;
+  margin-top: 2em;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 40px;
+  color: #013662;
+}
+
+/* Mission Section*/
+
+.mission-container {
+  text-align: center;
+  margin-bottom: 7em;
+  margin-top: 7rem;
+}
+
+.card-mission {
+  font-size: 24px;
+  color: #01233f;
+  letter-spacing: 3px;
+}
+
+.card-mission h2 {
+  margin-bottom: 1em;
+  font-family: 'Monoton', cursive;
+  letter-spacing: 3px;
+}
+
+/* Products Section */
+
+#products h2{
+  font-size: 36px;
+  margin-bottom: 1em;
+  font-family: 'Monoton', cursive; 
+  letter-spacing: 3px;
+  text-align: center;
+}
+.wrapper-products-images { 
+  display: flex;
+  margin-bottom: 5rem;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+} 
+
+.wrapper-products-images img {
+  box-shadow: .8rem .8rem .8rem rgba(0, 0, 0, .8);
+  width: 18vw;
+  height: 14vw;
+  border-radius: 12px;
+}
+
+.wrapper-products-images h3 {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #060505;
+}
+
+/* Employees Section */
+
+.container-employees {
+  color: #023157;
+  text-align: center;
+}
+
+.wrapper-employees-images h2 {
+  font-size: 36px;
+  margin-bottom: 1em;
+  font-family: 'Monoton', cursive; 
+  letter-spacing: 3px;
+}
+
+.wrapper-employees-images h3 {
+  font-size: 28.08px;
+}
+
+.employees-images-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.employees-images-container img {
+  box-shadow: .8rem .8rem .8rem rgba(0, 0, 0, .8);
+  border-radius: 12px;
+  width: 20vw;
+  height: 14vw;
+}
+
+/* Footer */
+
+.footer-container {
+  margin-left: 1rem;
+  padding-bottom: 2rem;
+  line-height: 2rem;
+}
+
+
+
+
+
+
+
